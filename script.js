@@ -29,7 +29,7 @@ function currentTime() {
 	let month = date.getMonth()+1;
 	let year = date.getFullYear();
 
-    para.innerText = ${month}/${dateDay}/${year}, ${hour}:${minute}:${second} ${am_pm}
+    para.innerText = `${month}/${dateDay}/${year}, ${hour}:${minute}:${second}${am_pm}`;
 }
 
 setInterval(currentTime, 1000)
